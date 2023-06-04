@@ -1,0 +1,68 @@
+.datos_p
+{
+    width:95%;
+    justify-content: center;
+    margin: auto;
+    background: rgba(207, 138, 138, 0.349);
+    border-radius: 5em;
+    padding: 1em;
+}
+h1
+{
+    text-align: center;
+}
+.datos_p>label
+{
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0  0 15px;
+}
+
+input
+{
+    border: none;
+    border-bottom: solid black 3px;
+    background: rgba(255, 255, 255, 0.329);
+    outline-style: none;
+}
+input[type=date]
+{
+    border: none;
+    background-color: rgba(240, 248, 255, 0.144);
+    font-style: oblique;
+    outline-style: none;
+}
+input[type=submit]
+{
+    border: 3px solid rgb(109, 238, 109);
+    background: rgba(236, 62, 62, 0.836);
+    outline-style: none;
+    cursor: pointer;
+}
+select
+{
+    display: inline-block;
+	width: 10%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+select:hover
+{
+    background: #B1E8CD;
+}

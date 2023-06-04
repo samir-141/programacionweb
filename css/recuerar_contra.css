@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{ 
+  background-color: #2CA1CC;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Container{
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius:5px;
+  color:1F1F1F;
+  text-align:center;}
+  h2{
+    padding: 20px; 
+  }
+  p{
+    color:#B8B8B8;
+    font-size:13px;
+  }
+  input{
+    margin:20px 0;
+    padding: 10px;
+    width:80%;
+    background-color: #EAEDF2;
+    border: none;
+    border-radius:3px;
+    color:#A0A0A0;
+    &:hover{
+      outline:none;
+    }
+    &:focus{
+      outline:none;
+    }
+    &:active{
+      outline:none;
+    }
+  }
+  button{
+    border:none;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius:5px;
+    background-color: #19B8D6;
+    color:#F7F6FF;
+    cursor: pointer;
+    border-bottom:2px solid rgba(0,0,0,0.3);
+    &:hover{
+      outline:none;
+    }
+    &:focus{
+      outline:none;
+    }
+    &:active{
+      outline:none;
+      position: relative;
+      top:1px;
+      border:none;
+      height:37px;
+    }
+  }
+   hr{
+     width:75%;
+     border-radius:10px;
+     border:1px solid #F4F4F4;
+     margin: auto;
+     margin-bottom:10px;
+   }
+  a{
+    line-height:4;
+    color: #5E54C7;
+    text-decoration:none;
+  }
