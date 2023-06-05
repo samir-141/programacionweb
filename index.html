@@ -10,15 +10,6 @@
       align-items: center;
       margin-bottom: 20px;
     }
-    .profile img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-    .message {
-      font-size: 18px;
-    }
   </style>
 </head>
 <body>
@@ -28,31 +19,40 @@
              <img class="profile-bgHome" src="https://37.media.tumblr.com/88cbce9265c55a70a753beb0d6ecc2cd/tumblr_n8gxzn78qH1st5lhmo1_1280.jpg" />
              <img class="avatar" src="http://gravatar.com/avatar/288ce55a011c709f4e17aef7e3c86c64?s=200" alt="jofpin"/>
                 </div>
-               <button>Follow</button>
+                <button id="qr">QR</button>
+                <button id="logoutButton">cerrar sesion</button>
+
                <div class="user-profile-data">
-                 <h1>Jose Pino</h1>
-                 <p>github.com/jofpin</p>
+                 <h1>SAMIR JHONER GOMEZ ALARCON</h1>
+                 <p>COMENSAL: 444</p>
                </div> 
-               <div class="description-profile">Front-end | Security Researcher | CSS Warrior | <a href="https://twitter.com/bullgit" title="bullgit"><strong>@bullgit</strong></a> | I love to create small things for the internet!</div>
-            <ul class="data-user">
-             <li><a><strong>3390</strong><span>Posts</span></a></li>
-             <li><a><strong>718</strong><span>Followers</span></a></li>
-             <li><a><strong>239</strong><span>Following</span></a></li>
+               <div class="description-profile">Beca completa</div>
+               <ul class="data-user">
+             <li><a><strong>20</strong><span>Asistecia</span></a></li>
+             <li><a><strong>4</strong><span>faltas</span></a></li>
+             <li><a><strong>12.5</strong><span>%faltas</span></a></li>
             </ul>
            </div>
          </div>
      
      <footer>
-        <h4>Design by <a href="https://twitter.com/jofpin" target="_blank" title="José Pino">@jofpin</a></h4>
+        <div class="conter">
+          <div id="desañuno" class="comida">
+            <ul>
+              <li>DESAÑUNO</li>
+              <li>"Aji de gallina , pan y 7 semillas"</li>
+              <li><img src="comida/desañuno.jpg" alt=""></li>
+            </ul>
+          </div>
+          <div id="almuerzo" class="comida">
+            <ul>
+              <li>ALMUERZO</li>
+              <li>"sopa de pollo, pollo a la olla, gelatiana"</li>
+              <li><img src="comida/almuerzo.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div>
      </footer>
-  <script>
-    var mensajeElement = document.getElementById("message");
-    var nom = 'samir'
-        // O cambiar el contenido utilizando innerHTML
-        mensajeElement.innerHTML = "<strong>hola "+nom+" este es tu perfil del comedor</strong>";
-  </script>
-  <button id="logoutButton">Cerrar sesión</button>
-
   <script>
     // Verificar si el usuario ha iniciado sesión
     if (!isLoggedIn()) {
